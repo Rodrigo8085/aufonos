@@ -1,0 +1,109 @@
+/* Estilos para HomePage */
+.jumbotron {
+  background-color: #e9ecef; /* Color de fondo */
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.jumbotron p {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+/* Estilos para ProductDetailPage */
+.product-detail-img {
+  max-height: 500px;
+  object-fit: contain; /* Asegura que la imagen se vea completa */
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08);
+}
+
+.product-detail-info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.product-detail-info .lead {
+  font-size: 2rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.product-detail-info .list-group-item {
+  border: none;
+  padding-left: 0;
+}
+
+/* Estilos para CartPage */
+.cart-summary {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.cart-summary h4 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.cart-summary .list-group-item {
+  border: none;
+  padding: 0.5rem 0;
+}
+
+.cart-empty-message {
+  padding: 3rem;
+  background-color: #fff3cd; /* Color de alerta de Bootstrap */
+  border: 1px solid #ffeeba;
+  border-radius: 0.5rem;
+  color: #664d03;
+}
+
+/* Estilos para CheckoutPage */
+.checkout-form-section {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.checkout-form-section h3 {
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+/* Estilos para NotFoundPage */
+.not-found-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.not-found-container h1 {
+  font-size: 6rem;
+  color: #dc3545; /* Rojo de error */
+  margin-bottom: 1rem;
+}
+
+.not-found-container p {
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}

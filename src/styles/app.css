@@ -1,0 +1,15 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa; /* Un fondo claro para la página */
+}
+
+.fakeimg {
+  height: 200px; /* Ajusta la altura de tus "fake images" */
+  background: #aaa;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}

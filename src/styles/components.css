@@ -1,0 +1,68 @@
+
+/* Importa los estilos BEM específicos para el CategoryFilter */
+@import './components/_category-filter.css';
+
+/* Estilos para ProductCard */
+.product-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; /* Sombra más pronunciada */
+}
+
+.product-card-img {
+  height: 200px; /* Altura fija para las imágenes de los productos */
+  object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+  border-bottom: 1px solid #eee; /* Separador sutil */
+}
+
+/* Estilos para CartItem */
+.cart-item {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.cart-item:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Estilos para Navbar (ya tiene estilos de Bootstrap, pero puedes añadir más) */
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  transition: background-color 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Estilos para el Footer */
+footer {
+  background-color: #343a40 !important; /* Color oscuro de Bootstrap */
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #007bff !important; /* Cambia de color al pasar el ratón */
+}
+
+/* Estilos para QuantitySelector */
+.input-group-sm .form-control {
+  height: calc(1.8125rem + 2px); /* Ajusta la altura del input */
+}
