@@ -1,4 +1,3 @@
-// src/hooks/useProducts.ts
 import { useState, useEffect } from 'react';
 import { fetchProducts, fetchProductById } from '../services/api'; // Importa las funciones de la API simulada
 import type { UseProductsResult } from '../interfaces/UseProductsResult';

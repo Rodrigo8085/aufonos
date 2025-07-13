@@ -1,8 +1,6 @@
-// src/hooks/useCart.ts
 import { useState, useEffect } from 'react';
 import type { CartItem } from '../interfaces/CartItem';
 import type { Product } from '../interfaces/Product';
-
 
 /**
  * Custom Hook para gestionar el estado del carrito de compras.

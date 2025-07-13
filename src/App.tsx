@@ -2,7 +2,6 @@
 // Aquí se definen el layout general (Header, Navbar, Footer)
 // y todas las rutas de tu aplicación usando react-router-dom.
 
-// Importa los componentes necesarios de react-router-dom
 import { Routes, Route } from 'react-router-dom';
 
 // Importa tus componentes de layout que vivirán en la carpeta 'src/components'
