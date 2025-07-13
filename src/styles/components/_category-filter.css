@@ -1,39 +1,13 @@
-/* src/styles/components/_category-filter.css */
-
 /*
   Estilos para el componente CategoryFilter usando metodología BEM.
   Bloque: category-filter
   Elementos: category-filter__label, category-filter__select
 */
 
-.category-filter {
-  /* Estilos generales para el bloque si los necesitas,
-     aunque muchas veces el layout se maneja con utilidades de Bootstrap
-     como d-flex, justify-content-center, mb-4. */
-}
-
 .category-filter__label {
-  /* Estilos específicos para la etiqueta del filtro */
   font-weight: bold;
-  /* El resto de estilos (bg-primary, text-white, border-primary)
-     ya los maneja Bootstrap directamente en el HTML. */
 }
 
 .category-filter__select {
-  /* Estilos específicos para el select del filtro */
   border: 1px solid #ced4da; /* Borde predeterminado de Bootstrap */
-  /* Puedes añadir más estilos aquí para personalizar la apariencia
-     más allá de lo que ofrece Bootstrap, por ejemplo: */
-  /*
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  */
 }
-
-/* Ejemplo de un modificador (si lo necesitaras en el futuro) */
-/*
-.category-filter--large .category-filter__select {
-  font-size: 1.2rem;
-  padding: 0.75rem 1.25rem;
-}
-*/
